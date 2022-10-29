@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Inicio</title>
+    <link rel="stylesheet" href="CSS/estilos.css" />
+    <script
+      src="https://kit.fontawesome.com/9a86c280cd.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="container_slider">
+      <div class="container">
+        <input type="radio" name="slider" id="item-1" checked />
+        <input type="radio" name="slider" id="item-2" />
+        <input type="radio" name="slider" id="item-3" />
+
+        <div class="cards">
+          <label class="card" for="item-1" id="selector-1">
+            <h1 id="titleContainer">DotOffice</h1>
+            <div class="cardLabel">
+              <h1 class="h1card"><i class="fa-solid fa-user"></i> Personal</h1>
+            </div>
+            <form action="Person.html" method="get">
+              <button class="submitButton">Entrar</button>
+            </form>
+          </label>
+
+          <label class="card" for="item-2" id="selector-2">
+            <h1 id="titleContainer">DotOffice</h1>
+            <div class="cardLabel">
+              <h1 class="h1card">
+                <i class="fa-solid fa-diamond"></i> NewsLetter
+              </h1>
+            </div>
+            <form action="New.html" method="get">
+              <button class="submitButton">Entrar</button>
+            </form>
+          </label>
+
+          <label class="card" for="item-3" id="selector-3">
+            <h1 id="titleContainer">DotOffice</h1>
+            <div class="cardLabel">
+              <h1 class="h1card">
+                <i class="fa-solid fa-users"></i> Corporativo
+              </h1>
+            </div>
+            <form action="corporati.html" method="get">
+              <button class="submitButton">Entrar</button>
+            </form>
+          </label>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
